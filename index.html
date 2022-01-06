@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
 
     <title>Five-a-side NYC</title>
 </head>
@@ -23,18 +24,18 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#aboutus">About us</a></li>
-                <li><a href="#">Sign Up</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
     <div class="jumbotron text-center" style="margin-bottom:0">
         <h1>Five-a-side NYC</h1>
-        <p>Resize this responsive page to see the effect!</p>
+        <p>NYC's Premier five-a-side League</p>
     </div>
 
     <div class="section" id="aboutus">
-        <div class="container" style="border:1px solid green">
+        <div class="container-fluid" style="border:1px solid green">
 
             <div class="row">
 
@@ -83,7 +84,7 @@
 
     </div>
     <div class="section" id="register">
-        <div class="container" style="border:1px solid green">
+        <div class="container-fluid" style="border:1px solid green">
             <form class="form-horizontal" action=" " method="post" id="contact_form">
                 <fieldset>
 
@@ -181,10 +182,49 @@
 
     </div>
     </div>
-    <div class="section" id="contactus">
-        <div class="container" style="border:1px solid green">
+
+    <div class="section" id="contact">
+        <div class="container-fluid" style="border:1px solid green">
 
             <h2>Contact us</h2>
+            <p>
+                We're here to help. Complete the form below and we get back to you
+                or call us at +1 646 123 1069
+            </p>
+
+            <form id="contact-form" class="contact-form">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="contactName" autocomplete="off" id="Name"
+                                placeholder="Enter your name">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="contactEmail" autocomplete="off"
+                                id="contactEmail" placeholder="Enter your email">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea class="form-control textarea" rows="3" name="Message" id="Message"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn main-btn">Send a message</button>
+                    </div>
+                </div>
+
+            </form>
         </div>
     </div>
 
