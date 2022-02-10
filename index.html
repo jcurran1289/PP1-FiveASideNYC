@@ -30,9 +30,9 @@
         </div>
     </nav>
 
-    <div class="jumbotron text-center section-header" style="margin-bottom:0">
-        <h1  class="text-on-light">Five-a-side NYC</h1>
-        <p  class="text-on-light">NYC's Premier five-a-side League</p>
+    <div class="jumbotron text-center jumboHeaderImg" style="margin-bottom:0">
+        <h1  class="text-on-dark">Five-a-side NYC</h1>
+        <p  class="text-on-dark">NYC's Premier five-a-side League</p>
     </div>
 
     <div class="section-aboutus" id="aboutus">
@@ -40,20 +40,16 @@
 
             <div class="row">
 
-                <div class="col-sm-6">
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L3irJivwg7Q"
-                            title="YouTube video player"></iframe>
-                    </div>
-                    <!-- <img src="aboutusimage.jpg" class="rounded float-right" alt="about us image"> -->
-                </div>
+               
                 <div class="col-sm-6">
                     <h2>About Us</h2>
+                    We are New York's elite 5-a-side club.  
                     What we offer:
                     <ul>
                         <li>2x30 minutes matches each night</li>
                         <li>Co-Ed</li>
+                        <li>Randomised Teams</li>
+                        <li>Once-off annual registration fee. No additional or hidden fees</li>
                         <li>Licensed Referees</li>
                         <li>Stat Tracking</li>
                         <li>Kits Supplied</li>
@@ -85,21 +81,31 @@
                     </table>
 
                 </div>
+                <div class="col-sm-6" style="padding:0">
+
+                    <div class="embed-responsive embed-responsive-16by9" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L3irJivwg7Q"
+                            title="YouTube video player"></iframe>
+                    </div>
+                    <!-- <img src="aboutusimage.jpg" class="rounded float-right" alt="about us image"> -->
+                </div>
             </div>
         </div>
 
     </div>
     <div class="section-register" id="register">
         <div class="container-fluid" style="border:1px solid green">
-            <form class="form-horizontal" action="/action_page.php" method="post" id="contact_form">
+            <form class="form-horizontal" action="https://formdump.codeinstitute.net/" method="post" id="register_form">
                 <fieldset>
 
                     <!-- Form Name -->
+                    
                     <legend>
-                        <center>
-                            <h2 class="text-on-light"><b>Registration Form</b></h2>
-                        </center>
-                    </legend><br>
+                        
+                            <h2 class="text-on-light" style="text-align:center"><b>Registration Form</b></h2>
+                        
+                    </legend>
+                <br>
 
                     <!-- Text input-->
 
@@ -151,7 +157,7 @@
                         <div class="col-md-4 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                <input name="email" placeholder="E-Mail Address" class="form-control" type="text" required>
+                                <input name="email" placeholder="E-Mail Address" class="form-control" type="email" required>
                             </div>
                         </div>
                     </div>
@@ -164,7 +170,7 @@
                         <div class="col-md-4 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                                <input name="contact_no" placeholder="(639)" class="form-control" type="text" required>
+                                <input name="contact_no" placeholder="123-456-7891" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" type="text" required>
                             </div>
                         </div>
                     </div>
@@ -174,7 +180,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label"></label>
                         <div class="col-md-4">
-                           <button type="submit"class="btn btn-warning btn-block mb-4">SUBMIT <span
+                           <button type="submit" class="btn btn-warning btn-block mb-4">SUBMIT <span
                                     class="glyphicon glyphicon-send" ></span></button>
                                     
                         </div>
@@ -190,32 +196,34 @@
 
     <div class="section-contactus" id="contact">
         <div class="container" style="border:1px solid green">
-            <form class="form-horizontal" action="/action_page.php" method="post" id="contact_form">
+            <form class="form-horizontal" action="https://formdump.codeinstitute.net/" method="post" id="contact_form">
                 <fieldset>
 
                     <!-- Form Name -->
-                    <legend>
-                        <center>
-                            <h2 class="text-on-dark">Contact us</h2>
-                            <p class="text-on-dark">
+                        
+                    <legend class="text-on-dark" style="text-align:center">
+
+                            <h2 class="text-on-dark" style="text-align:center">Contact us</h2>
+                            
                                 We're here to help. Complete the form below and we get back to you
-                                or call us at +1 646 123 1069 </BR> Address: 62 Chelsea Piers New York, NY 10011
-                            </p>
-                        </center>
-                    </legend><br>
+                                or call us at +1 646 123 1069 <br> Address: 62 Chelsea Piers New York, NY 10011
+                            
+                        </legend>
+
+                    <br>
 
 
                     <div class="form-group">
                         <label class="col-md-3"></label>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" name="contactName" autocomplete="off" id="contactName"
+                            <input type="text" class="form-control" name="contactName" id="contactName"
                                 placeholder="Enter your name" required>
                         </div>
                     </div> 
                     <div class="form-group">
                         <label class="col-md-3"></label>
                         <div class="col-md-6">
-                            <input type="email" class="form-control" name="contactEmail" autocomplete="off" id="contactEmail"
+                            <input type="email" class="form-control" name="contactEmail" id="contactEmail"
                                 placeholder="Enter your email" required>
                         </div>
                     </div> 

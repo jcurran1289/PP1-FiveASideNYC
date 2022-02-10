@@ -1,4 +1,4 @@
-.contact-form{ margin-top:15px;}
+.contact-form{ margin-top:15px; margin-bottom:15px;}
 .textarea{ min-height:220px; resize:none;}
 .form-control{ box-shadow:none; border-color:#eee; height:49px;}
 .form-control:focus{ box-shadow:none; border-color:#00b09c;}
@@ -21,6 +21,7 @@ top: 0px;
 .section-contactus{
     background-color: #7284A8;
     color: white !important;
+    padding-bottom:15px;
 }
 
 .text-on-dark{
@@ -30,14 +31,20 @@ top: 0px;
 .text-on-light{
     color: #7284A8 !important;
 }
-.jumbotron{
-  
+/* .jumbotron{
+    width: 100%;
+    height: auto;
     background-color: white;
-     background-image: url(headerImage.jpg); 
-
+    background-image: url(Images/soccerheader.jpg) ; 
+  
     background-size: cover;
-}
+} */
 
-
-
-
+.jumboHeaderImg {
+    background: url("Images/soccerheader.jpg") no-repeat;
+    background-size: cover;
+    /* background-position: top center; */
+    height: 400px;
+    width:100%;
+    
+  }
