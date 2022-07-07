@@ -27,12 +27,11 @@ The site has been deployed to github and is accessible on [github pages]( https:
 ### About Us
 - The about us section provides the user with details of what the club offers it's members when they register
 - This section also has a simple, easy to read table that gives the days and times the club plays their 5-a-side matches
-- There a brief video of highlights of the club playing
 ![about-us screenshot](/Assets/images/about-us.PNG)
 
 ### Register
 - The Register section contains a form that collects the user's details so they can join the club.
-- This form asks the user for their first name, last name, gender, email and phone number so they can register
+- This form asks the user for their first name, last name, email and phone number so they can register
 ![register screenshot](/Assets/images/register.png)
 
 ### Contact
@@ -48,16 +47,7 @@ The site has been deployed to github and is accessible on [github pages]( https:
 - I have confirmed that both forms work. they require entries in every field, will only accept numbers in the phone number field and emails in the email fields. The submit button works ok too
 - I tested that this page works in different browsers: Chrome, Firefox, Microsoft Edge 
 
-## Languages and Frameworks
-
--   HTML
--   CSS
--   Bootstrap
-
-## Bugs
-
-
-## Validator Testing
+### Validator Testing
 
 - HTML
     - No errors when passed through the offcial W3C validator
@@ -66,6 +56,25 @@ The site has been deployed to github and is accessible on [github pages]( https:
 - Accessibility
     - Lighthouse in devtools confirmed the colours and fonts on the website are easy to read and accessible
 ![contact screenshot](/Assets/images/performance.png)
+
+### Responsiveness Testing
+I tested the site on all the devices below and everything worked ok
+
+| Device         | Browser | Screen Width |
+|----------------|---------|--------------|
+| iPhone SE      | Chrome  | 375 x 667    |
+| iPhone 12 Pro  | Safari  | 390 x 844    |
+| Samsung Galaxy | Chrome  | 412 x 914    |
+| iPad Air       | Safari  | 820 x 1180   |
+
+
+## Languages and Frameworks
+
+-   HTML
+-   CSS
+-   Bootstrap
+
+## Bugs
 
 
 
