@@ -1,3 +1,17 @@
+@media (max-width:576px) {
+    body{
+        font-size: x-large;
+    }
+}
+
+
+@media (min-width:992px) {
+    body{
+        font-size: medium;
+    }
+    
+
+}
 .contact-form{ 
     margin-top:15px; margin-bottom:15px;
 }
@@ -55,13 +69,20 @@ top: 0px;
 } */
 
 .jumboHeaderImg {
-    background: url("Images/soccerheader.jpg") no-repeat;
+    background: url("/Assets/images/green-grass-background-.jpg") no-repeat;
     background-size: cover;
     /* background-position: top center; */
     height: 400px;
     width:100%;
     
   }
+  .img-fluid {
+    max-width: fit-content;
+    height: 100%;
+    width:100%;
+    padding: 10%;
+    }
+
   .centered {
     display: flex;
     align-items: center;

@@ -92,12 +92,17 @@
                             title="YouTube video player"></iframe>
                     </div> -->
 
-                    <div class="embed-responsive embed-responsive-16by9">
+                    <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+                       <!-- <div class="ratio ratio-4x3 position-relative">
                         <iframe class="embed-responsive-item second-row" src="https://www.youtube.com/embed/L3irJivwg7Q" 
                         frameborder="0" 
                         height="100%" width="100%"></iframe>
-                      </div>
-                    <!-- <img src="aboutusimage.jpg" class="rounded float-right" alt="about us image"> -->
+                    </div> -->
+                      <!-- <div class="img-fluid embed-responsive embed-responsive-4by3 " >
+                        <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/qN3OueBm9F4" allowfullscreen></iframe>
+                      </div> -->
+                      <img src="/Assets/images/fiveaside.jpg" class="img-fluid" alt="soccer">
+
                 </div>
             </div>
         </div>
@@ -106,7 +111,7 @@
     <!-- Registration Section -->
     <section class="section-register" id="register">
         <div class="container" style="border:1px solid green">
-            <form class="form-horizontal"  action="https://formdump.codeinstitute.net/" method="post" id="register_form">
+            <form class="form-horizontal"  action="registraion.html" method="POST" id="register_form">
                 <fieldset>
 
                     <!-- Form Name -->
@@ -143,7 +148,7 @@
                         </div>
                     </div>
 
-                    <div class="form-group centered">
+                    <!-- <div class="form-group centered">
                         <div class="col-md-4 selectContainer">
                             <label class="col-md-4 control-label">Gender</label>
                             <div class="input-group">
@@ -156,7 +161,7 @@
                                 </select>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
 
                     <!-- Text input-->
@@ -229,6 +234,7 @@
                                 placeholder="Enter your name" required>
                         </div>
                     </div> 
+
                     <div class="form-group centered">
                         
                         <div class="col-md-6">
@@ -236,24 +242,33 @@
                                 placeholder="Enter your email" required>
                         </div>
                     </div> 
-                    
+
                     <div class="form-group centered">
                         
                         <div class="col-md-6">
-                             <textarea class="form-control textarea" rows="3" name="contactMessage" id="contactMessage"
+                            <input type="email" class="form-control" name="contactMessage" id="contactMessage"
+                                placeholder="Message" required>
+                        </div>
+                    </div> 
+<!--                     
+                    <div class="form-group centered">
+                        
+                        <div class="col-md-6">
+                             <textarea class="form-control textarea" rows="3" 
+                             name="contactMessage" id="contactMessage"
                                     placeholder="Message" required></textarea> 
                         </div>
-                    </div> 
-
-
+                    </div>  -->
    
-                    <div class="row">
-                        <label class="col-md-5"></label>
-                        <div class="col-md-6">
-                            <button type="submit" class="btn btn-warning btn-block mb-4">SEND MESSAGE <span class="glyphicon glyphicon-envelope"></span></button>
-                        </div>
-                    </div> 
 
+                    <div class="form-group centered">
+                        <div class="col-md-6">
+                            <label class="col-md-4 control-label"></label>
+                           <button type="submit" class="btn btn-warning btn-block mb-4">SEND MESSAGE <span
+                                    class="glyphicon glyphicon-send" ></span></button>
+                                    
+                        </div>
+                    </div>
 
                 </fieldset>
             </form>
@@ -262,6 +277,16 @@
     </section>
 
 
+<!-- Footer Section -->
+<footer>
+    <nav class="navbar navbar-default navbar-fixed-bottom ">
+        <div class="container">
+            <p class="navbar-text">
+                For Educational Purpsoes Only &copy; 2022 John Curran
+            </div>
+        </div>
+    </nav>
+</footer>
 
 
 
