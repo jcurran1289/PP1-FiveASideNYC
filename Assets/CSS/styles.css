@@ -1,4 +1,4 @@
-@media (max-width:576px) {
+@media (max-width:320px) {
     body{
         font-size: x-large;
     }
@@ -13,7 +13,7 @@
 }
 
 .form-control{ 
-    box-shadow:none; border-color:#eee; height:49px;
+    box-shadow:none; border-color: black; height:49px;
 }
 
 .img-fluid {
