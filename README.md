@@ -28,19 +28,19 @@ The site has been deployed to github and is accessible on [github pages]( https:
 - The about us section provides the user with details of what the club offers it's members when they register
 - This section also has a simple, easy to read table that gives the days and times the club plays their 5-a-side matches
 - There a brief video of highlights of the club playing
-![about-us screenshot](Images/about-us.PNG)
+![about-us screenshot](/Assets/images/about-us.PNG)
 
 ### Register
 - The Register section contains a form that collects the user's details so they can join the club.
 - This form asks the user for their first name, last name, gender, email and phone number so they can register
-![register screenshot](Images/register.PNG)
+![register screenshot](/Assets/images/register.png)
 
 ### Contact
 - The contact section allows users to contact the administrators of the club. 
 - This section contains a contact form where the user enters their name, email and the question they have about the club
 - The contact section includes the address and phone number of the club
 - This section is valuable to the user since it provides the user the information to contact if they need to and the address where the matches will be played
-![contact screenshot](Images/contact.PNG)
+![contact screenshot](/Assets/images/contact.png)
 
 ## TESTING
 
@@ -65,8 +65,8 @@ The site has been deployed to github and is accessible on [github pages]( https:
     - No errors when passed through the offcial JIGSAW validator
 - Accessibility
     - Lighthouse in devtools confirmed the colours and fonts on the website are easy to read and accessible
-![contact screenshot](Images/performance_1.PNG)
-![contact screenshot](Images/performance_2.PNG)
+![contact screenshot](/Assets/images/performance.png)
+
 
 
 ## Deployment
