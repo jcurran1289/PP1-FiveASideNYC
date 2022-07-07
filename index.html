@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="/Assets/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Five-a-side NYC</title>
 </head>
@@ -33,7 +34,7 @@
 
     <!-- Hero Image Section -->
     <section class="jumbotron text-center jumboHeaderImg" style="margin-bottom:0">
-        <h1  class="text-on-dark">Five-a-side NYC</h1>
+        <h1  class="text-on-dark" style="padding-top: 147px; font-size:xxx-large">Five-a-side NYC</h1>
         <p  class="text-on-dark">NYC's Premier five-a-side League</p>
     </section>
     
@@ -111,7 +112,7 @@
     <!-- Registration Section -->
     <section class="section-register" id="register">
         <div class="container" style="border:1px solid green">
-            <form class="form-horizontal"  action="registraion.html" method="POST" id="register_form">
+            <form class="form-horizontal"  action="https://formdump.codeinstitute.net/" method="POST" id="register_form" target="_blank">
                 <fieldset>
 
                     <!-- Form Name -->
@@ -194,8 +195,8 @@
                     <div class="form-group centered">
                         <div class="col-md-4">
                             <label class="col-md-4 control-label"></label>
-                           <button type="submit" class="btn btn-warning btn-block mb-4">SUBMIT <span
-                                    class="glyphicon glyphicon-send" ></span></button>
+                           <button type="submit" class="btn btn-warning btn-block mb-4">SUBMIT 
+                            <span class="glyphicon glyphicon-send" ></span></button>
                                     
                         </div>
                     </div>
@@ -210,7 +211,7 @@
     <!-- Contact Us Section -->
     <section class="section-contactus" id="contact">
         <div class="container" style="border:1px solid green">
-            <form class="form-horizontal" action="https://formdump.codeinstitute.net/" method="post" id="contact_form">
+            <form class="form-horizontal" action="https://formdump.codeinstitute.net/" method="post" id="contact_form" target="_blank">
                 <fieldset>
 
                     <!-- Form Name -->
@@ -246,12 +247,12 @@
                     <div class="form-group centered">
                         
                         <div class="col-md-6">
-                            <input type="email" class="form-control" name="contactMessage" id="contactMessage"
+                            <input type="text" class="form-control" name="contactMessage" id="contactMessage"
                                 placeholder="Message" required>
                         </div>
                     </div> 
-<!--                     
-                    <div class="form-group centered">
+                    
+                    <!-- <div class="form-group centered">
                         
                         <div class="col-md-6">
                              <textarea class="form-control textarea" rows="3" 
