@@ -11,31 +11,18 @@
     
 
 }
-.contact-form{ 
-    margin-top:15px; margin-bottom:15px;
-}
-.textarea{ 
-    min-height:220px; resize:none;
-}
-.form-control{ 
-    box-shadow:none; border-color:#eee; height:49px;}
 
-.form-control:focus{
-     box-shadow:none; border-color:#00b09c;
-    }
-.form-control-feedback{ 
-    line-height:50px;
+.form-control{ 
+    box-shadow:none; border-color:#eee; height:49px;
 }
-.main-btn{ 
-    background:#00b09c; border-color:#00b09c; color:#fff;
-}
-.main-btn:hover{
-     background:#00a491;color:#fff;
-    }
-.form-control-feedback {
-line-height: 50px;
-top: 0px;
-}
+
+.img-fluid {
+        max-width: fit-content;
+        height: 100%;
+        width:100%;
+        padding: 10%;
+        }
+
 
 .section-aboutus{
     background-color: #7284A8;
@@ -58,29 +45,15 @@ top: 0px;
 .text-on-light{
     color: #292942 !important;
 }
-/* .jumbotron{
-    width: 100%;
-    height: auto;
-    background-color: white;
-    background-image: url(Images/soccerheader.jpg) ; 
-  
-    background-size: cover;
-} */
 
 .jumboHeaderImg {
     background: url("/Assets/images/green-grass-background-.jpg") no-repeat;
     background-size: cover;
-    /* background-position: top center; */
     height: 400px;
     width:100%;
     
   }
-  .img-fluid {
-    max-width: fit-content;
-    height: 100%;
-    width:100%;
-    padding: 10%;
-    }
+
 
   .centered {
     display: flex;
@@ -88,42 +61,6 @@ top: 0px;
     justify-content: center;
   }
 
-  .h1{
-    padding-top: 147px !important;
-  }
-
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-
-  .fa:hover {
-    opacity: 0.7;
-}
-
-
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-
-  
-  .fa-instagram {
-
-    background: #d6249ef5;
-    color: white;
-  }
 
   #contactMessage {
     height: 100px;
