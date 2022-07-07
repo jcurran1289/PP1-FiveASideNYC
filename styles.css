@@ -1,10 +1,24 @@
-.contact-form{ margin-top:15px; margin-bottom:15px;}
-.textarea{ min-height:220px; resize:none;}
-.form-control{ box-shadow:none; border-color:#eee; height:49px;}
-.form-control:focus{ box-shadow:none; border-color:#00b09c;}
-.form-control-feedback{ line-height:50px;}
-.main-btn{ background:#00b09c; border-color:#00b09c; color:#fff;}
-.main-btn:hover{ background:#00a491;color:#fff;}
+.contact-form{ 
+    margin-top:15px; margin-bottom:15px;
+}
+.textarea{ 
+    min-height:220px; resize:none;
+}
+.form-control{ 
+    box-shadow:none; border-color:#eee; height:49px;}
+
+.form-control:focus{
+     box-shadow:none; border-color:#00b09c;
+    }
+.form-control-feedback{ 
+    line-height:50px;
+}
+.main-btn{ 
+    background:#00b09c; border-color:#00b09c; color:#fff;
+}
+.main-btn:hover{
+     background:#00a491;color:#fff;
+    }
 .form-control-feedback {
 line-height: 50px;
 top: 0px;
@@ -15,7 +29,7 @@ top: 0px;
     color: white;
 }
 .section-register{
-    color:  #7284A8;
+    color:  #292942;
 
 }
 .section-contactus{
@@ -29,7 +43,7 @@ top: 0px;
 }
 
 .text-on-light{
-    color: #7284A8 !important;
+    color: #292942 !important;
 }
 /* .jumbotron{
     width: 100%;
@@ -47,4 +61,9 @@ top: 0px;
     height: 400px;
     width:100%;
     
+  }
+  .centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
