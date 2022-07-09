@@ -43,7 +43,7 @@ The site has been deployed to github and is accessible on [github pages]( https:
 
 ## TESTING
 
-- Using the chrome devtools, I confirmed the website is responsive and functions on all screen sizes
+- Using the chrome devtools, I confirmed the website is responsive and functions on all screen sizes. see Responsiveness Testing section below
 - I have confirmed that both forms work. they require entries in every field, will only accept numbers in the phone number field and emails in the email fields. The submit button works ok too
 - I tested that this page works in different browsers: Chrome, Firefox, Microsoft Edge 
 
