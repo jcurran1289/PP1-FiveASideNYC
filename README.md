@@ -80,6 +80,7 @@ The site has been deployed to github and is accessible on [github pages]( https:
 ## Bugs
  - Nav bar was not wokring on smaller screens. to fix this i updated from bootstrap 3 to bootstrap 5.
  - When i updated from BS 3 to BS 5, the input boxes for both forms were to the left. i created the class "centered" to center all inputs in both forms
+ - deploy wesbite was not reading css. I fixed it by updated the link from /Assets/CSS/styles.css to Assets/CSS/styles.css
 
 
 ## Deployment
