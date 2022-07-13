@@ -44,8 +44,10 @@ The site has been deployed to github and is accessible on [github pages]( https:
 ## TESTING
 
 - Using the chrome devtools, I confirmed the website is responsive and functions on all screen sizes. see Responsiveness Testing section below
-- I have confirmed that both forms work. they require entries in every field, will only accept numbers in the phone number field and emails in the email fields. The submit button works ok too
+- I have confirmed that both forms work. they require entries in every field, will only accept numbers in the phone number field and emails in the email fields.
+- Confirmed the submit and send message button works and open in a new tabs 
 - I tested that this page works in different browsers: Chrome, Firefox, Microsoft Edge 
+- Tested and confirmed that the three links (about us, register and contact us) in the navaigation bar bring the user to the appropriate section on the page 
 
 ### Validator Testing
 
@@ -58,7 +60,8 @@ The site has been deployed to github and is accessible on [github pages]( https:
 ![contact screenshot](/Assets/images/performance.png)
 
 ### Responsiveness Testing
-I tested the site on all the devices below and everything worked ok
+- I have tested the media queries in my css. the text size increases on smaller screens and decreases on bigger screens
+- I tested the site on all the devices below and everything worked ok
 
 | Device         | Browser | Screen Width |
 |----------------|---------|--------------|
@@ -75,7 +78,8 @@ I tested the site on all the devices below and everything worked ok
 -   Bootstrap
 
 ## Bugs
-
+ - Nav bar was not wokring on smaller screens. to fix this i updated from bootstrap 3 to bootstrap 5.
+ - When i updated from BS 3 to BS 5, the input boxes for both forms were to the left. i created the class "centered" to center all inputs in both forms
 
 
 ## Deployment
