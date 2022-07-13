@@ -1,68 +1,68 @@
-@media (max-width:320px) {
-    body{
-        font-size: x-large;
-    }
-}
-
-@media (min-width:992px) {
-    body{
-        font-size: medium;
-    }
-    
-
-}
-
-
-.form-control{ 
-    box-shadow:none; border-color: black; height:49px;
-}
-
-.img-fluid {
-        max-width: fit-content;
-        height: 100%;
-        width:100%;
-        padding: 10%;
+    @media (max-width:320px) {
+        body{
+            font-size: x-large;
         }
+    }
+
+    @media (min-width:992px) {
+        body{
+            font-size: medium;
+        }
+        
+
+    }
 
 
-.section-aboutus{
-    background-color: #7284A8;
-    color: white;
-}
-.section-register{
-    color:  #292942;
+    .form-control{ 
+        box-shadow:none; border-color: black; height:49px;
+    }
 
-}
-.section-contactus{
-    background-color: #7284A8;
-    color: white !important;
-    padding-bottom:15px;
-}
-
-.text-on-dark{
-    color: white !important;
-}
-
-.text-on-light{
-    color: #292942 !important;
-}
-
-.jumboHeaderImg {
-    background: url("/Assets/images/green-grass-background-.jpg") no-repeat;
-    background-size: cover;
-    height: 400px;
-    width:100%;
-    
-  }
+    .img-fluid {
+            max-width: fit-content;
+            height: 100%;
+            width:100%;
+            padding: 10%;
+            }
 
 
-  .centered {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    .section-aboutus{
+        background-color: #7284A8;
+        color: white;
+    }
+    .section-register{
+        color:  #292942;
+
+    }
+    .section-contactus{
+        background-color: #7284A8;
+        color: white !important;
+        padding-bottom:15px;
+    }
+
+    .text-on-dark{
+        color: white !important;
+    }
+
+    .text-on-light{
+        color: #292942 !important;
+    }
+
+    .jumboHeaderImg {
+        background: url("/Assets/images/green-grass-background-.jpg") no-repeat;
+        background-size: cover;
+        height: 400px;
+        width:100%;
+        
+    }
 
 
-  #contactMessage {
-    height: 100px;
-  }
+    .centered {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #contactMessage {
+        height: 100px;
+    }
