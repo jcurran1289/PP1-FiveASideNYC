@@ -1,5 +1,7 @@
 # NYC soccer. WEBSITE
 
+![about-us screenshot](Assets/images/website-responsiveness.PNG)
+
 ## DESCRIPTION
 
 This is the front-facing website of Five-a-side NYC. It's purpose is to advertise a five-a-side football club at chelsea piers in NYC.
