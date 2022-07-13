@@ -48,7 +48,7 @@
     }
 
     .jumboHeaderImg {
-        background: url("/Assets/images/green-grass-background-.jpg") no-repeat;
+        background: url("Assets/images/green-grass-background-.jpg") no-repeat;
         background-size: cover;
         height: 400px;
         width:100%;
