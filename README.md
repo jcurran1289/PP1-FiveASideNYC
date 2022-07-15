@@ -83,6 +83,7 @@ The site has been deployed to github and is accessible on [github pages]( https:
  - Nav bar was not wokring on smaller screens. to fix this i updated from bootstrap 3 to bootstrap 5.
  - When i updated from BS 3 to BS 5, the input boxes for both forms were to the left. i created the class "centered" to center all inputs in both forms
  - Deploy wesbite was not reading css. I fixed it by updated the link from /Assets/CSS/styles.css to Assets/CSS/styles.css 
+ - Header image was not loading so fixed by changing ../green-grass-background-.jpg to ../images/green-grass-background-.jpg
 
 
 ## Deployment
@@ -90,7 +91,3 @@ The site was deployed to GitHub pages
 
 The live link can be found [Five-a-side NYC]( https://jcurran1289.github.io/PP1-FiveASideNYC/).
 
-## Credits
-### Content
-### Media
-- The video was taken YouTube channel  [FairPlay Indoor Soccer Complex](https://www.youtube.com/channel/UCnKTEhr_UrLvtZlE-_wPkTw).
